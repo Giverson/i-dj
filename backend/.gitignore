@@ -1,0 +1,14 @@
+# Ignorar o diretório node_modules (se estiver usando Node.js)
+node_modules/
+
+# Ignorar credenciais sensíveis
+.env
+
+# Ignorar logs e arquivos temporários
+*.log
+.DS_Store  # (para macOS)
+Thumbs.db  # (para Windows)
+
+# Ignorar pastas específicas (se houver)
+dist/
+build/
